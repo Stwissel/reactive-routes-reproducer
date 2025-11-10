@@ -15,7 +15,7 @@ The application uses reactive Routes
 
 ## The problem
 
-Running the application using `quarkus dev` with quarkus version `3.25.4` works as expected, but fails after upgrading to Quarkus `3.29.2' with an error stemming from inside the stack.
+Running the application using `quarkus dev` with quarkus version `3.25.4` works as expected, but fails after upgrading to Quarkus `3.29.2` with an error stemming from inside the stack.
 
 ```log
 ERROR [io.qua.dep.dev.IsolatedDevModeMain] (main) Failed to start quarkus: java.lang.RuntimeException: io.quarkus.builder.BuildException: Build failure: Build failed due to errors
